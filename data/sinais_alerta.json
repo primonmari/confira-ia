@@ -1,0 +1,99 @@
+[
+  {
+    "id": "S001",
+    "nome": "Senso de urgência",
+    "descricao": "A mensagem tenta fazer a pessoa agir imediatamente, sem tempo para verificar a informação.",
+    "indicadores": [
+      "urgente",
+      "imediatamente",
+      "última chance",
+      "faça agora",
+      "sua conta será bloqueada"
+    ],
+    "peso": 2
+  },
+  {
+    "id": "S002",
+    "nome": "Solicitação de código de segurança",
+    "descricao": "A pessoa é orientada a informar um código recebido por SMS, aplicativo ou outro meio de autenticação.",
+    "indicadores": [
+      "código recebido",
+      "código SMS",
+      "token",
+      "código de confirmação"
+    ],
+    "peso": 3
+  },
+  {
+    "id": "S003",
+    "nome": "Solicitação de senha",
+    "descricao": "A pessoa é solicitada a informar sua senha ou outra credencial de acesso.",
+    "indicadores": [
+      "senha",
+      "senha do banco",
+      "senha de acesso",
+      "informar senha"
+    ],
+    "peso": 3
+  },
+  {
+    "id": "S004",
+    "nome": "Link suspeito",
+    "descricao": "A mensagem direciona a pessoa para um link para realizar uma ação relacionada à conta ou aos dados pessoais.",
+    "indicadores": [
+      "clique aqui",
+      "acesse o link",
+      "regularize sua conta",
+      "atualize seus dados"
+    ],
+    "peso": 3
+  },
+  {
+    "id": "S005",
+    "nome": "Ameaça ou consequência",
+    "descricao": "A mensagem apresenta uma consequência negativa caso a pessoa não realize determinada ação.",
+    "indicadores": [
+      "conta será bloqueada",
+      "conta será encerrada",
+      "perderá o acesso",
+      "pagamento será cancelado"
+    ],
+    "peso": 2
+  },
+  {
+    "id": "S006",
+    "nome": "Pedido para instalar aplicativo",
+    "descricao": "A pessoa é orientada a instalar um aplicativo ou programa para supostamente resolver um problema.",
+    "indicadores": [
+      "instale o aplicativo",
+      "baixe o aplicativo",
+      "aplicativo de segurança",
+      "acesso remoto"
+    ],
+    "peso": 3
+  },
+  {
+    "id": "S007",
+    "nome": "Pedido inesperado de transferência",
+    "descricao": "A pessoa recebe uma solicitação inesperada para realizar uma transferência ou Pix.",
+    "indicadores": [
+      "faça um Pix",
+      "transfira o dinheiro",
+      "envie o valor",
+      "realize a transferência"
+    ],
+    "peso": 3
+  },
+  {
+    "id": "S008",
+    "nome": "Apelo emocional",
+    "descricao": "A abordagem utiliza medo, preocupação ou pressão emocional para influenciar a decisão.",
+    "indicadores": [
+      "situação urgente",
+      "problema grave",
+      "precisamos resolver agora",
+      "não conte para ninguém"
+    ],
+    "peso": 2
+  }
+]

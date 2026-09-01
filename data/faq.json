@@ -1,0 +1,127 @@
+[
+  {
+    "id": "F001",
+    "pergunta": "O banco pode pedir minha senha por telefone?",
+    "resposta": "Não compartilhe sua senha com pessoas que entrarem em contato solicitando esse tipo de informação. Em caso de dúvida, encerre o contato e procure o banco por um canal oficial."
+  },
+  {
+    "id": "F002",
+    "pergunta": "Devo informar um código recebido por SMS?",
+    "resposta": "Códigos de segurança são informações sensíveis. Não compartilhe códigos recebidos por SMS ou aplicativo com pessoas que solicitarem essa informação por telefone, mensagem ou outros canais."
+  },
+  {
+    "id": "F003",
+    "pergunta": "Recebi uma mensagem dizendo que minha conta será bloqueada. O que faço?",
+    "resposta": "Não clique em links da mensagem e não forneça senhas ou códigos. Verifique a situação diretamente pelo aplicativo ou site oficial da instituição financeira."
+  },
+  {
+    "id": "F004",
+    "pergunta": "Recebi um Pix de uma pessoa que não conheço. O que devo fazer?",
+    "resposta": "Não tome nenhuma decisão apenas com base em uma mensagem ou solicitação recebida. Verifique cuidadosamente a situação e procure orientação pelos canais oficiais da instituição financeira."
+  },
+  {
+    "id": "F005",
+    "pergunta": "Como saber se uma mensagem é um golpe?",
+    "resposta": "Não existe um único sinal que confirme uma fraude. Alguns indicadores de risco são senso de urgência, solicitação de senhas ou códigos, links suspeitos, ameaças de bloqueio e pedidos inesperados de transferência."
+  },
+  {
+    "id": "F006",
+    "pergunta": "O Confira IA consegue confirmar se uma mensagem é fraude?",
+    "resposta": "Não. O Confira IA identifica sinais compatíveis com golpes conhecidos e apresenta uma avaliação de risco. A análise não confirma definitivamente que uma situação é fraudulenta ou legítima."
+  },
+  {
+    "id": "F007",
+    "pergunta": "O Confira IA acessa minha conta bancária?",
+    "resposta": "Não. O Confira IA não acessa contas bancárias, não consulta transações reais e não realiza operações financeiras."
+  },
+  {
+    "id": "F008",
+    "pergunta": "O banco pode pedir para eu instalar um aplicativo durante uma ligação?",
+    "resposta": "Desconfie de solicitações inesperadas para instalar aplicativos durante ligações. Não instale aplicativos ou permita acesso remoto ao dispositivo sem confirmar a situação por um canal oficial."
+  },
+  {
+    "id": "F009",
+    "pergunta": "O que é phishing?",
+    "resposta": "Phishing é uma tentativa de enganar a pessoa por meio de mensagens, sites, e-mails ou outros canais falsos para obter informações como senhas, códigos ou dados pessoais."
+  },
+  {
+    "id": "F010",
+    "pergunta": "Como identificar um link suspeito?",
+    "resposta": "Observe o endereço do site, desconfie de links recebidos inesperadamente e evite acessar páginas que solicitem informações sensíveis. Para acessar serviços bancários, prefira abrir diretamente o aplicativo ou site oficial."
+  },
+  {
+    "id": "F011",
+    "pergunta": "Recebi uma ligação dizendo que houve uma compra suspeita no meu cartão. O que faço?",
+    "resposta": "Não forneça dados, senhas ou códigos durante a ligação. Verifique a compra diretamente no aplicativo ou em um canal oficial da instituição financeira."
+  },
+  {
+    "id": "F012",
+    "pergunta": "O banco pode pedir para eu fazer um Pix para cancelar uma compra?",
+    "resposta": "Desconfie desse tipo de solicitação. Não realize transferências durante uma ligação ou atendimento suspeito. Encerre o contato e procure a instituição financeira por um canal oficial."
+  },
+  {
+    "id": "F013",
+    "pergunta": "Recebi um boleto que não reconheço. Devo pagar?",
+    "resposta": "Não realize o pagamento antes de confirmar a origem da cobrança. Verifique o beneficiário e confirme a dívida diretamente com a empresa ou instituição responsável por um canal oficial."
+  },
+  {
+    "id": "F014",
+    "pergunta": "Um comprovante de Pix é suficiente para confirmar um pagamento?",
+    "resposta": "Não. Um comprovante enviado por mensagem não deve ser considerado suficiente. Confirme o recebimento diretamente no extrato da conta antes de considerar o pagamento realizado."
+  },
+  {
+    "id": "F015",
+    "pergunta": "Alguém pediu para eu devolver um Pix para outra conta. O que faço?",
+    "resposta": "Tenha cuidado. Não faça uma nova transferência para outra conta sem verificar a situação. Confira o recebimento no extrato e utilize os procedimentos oficiais da instituição financeira quando aplicável."
+  },
+  {
+    "id": "F016",
+    "pergunta": "É seguro fazer um investimento que promete lucro garantido?",
+    "resposta": "Promessas de lucro ou rentabilidade garantida podem ser um sinal de alerta. Antes de investir, verifique a instituição, as condições da oferta e as informações por canais confiáveis e oficiais."
+  },
+  {
+    "id": "F017",
+    "pergunta": "Uma pessoa prometeu um empréstimo sem análise. É seguro?",
+    "resposta": "Desconfie de ofertas com aprovação garantida ou sem análise. Também desconfie de cobranças antecipadas para liberar crédito. Confirme a oferta diretamente com a instituição financeira."
+  },
+  {
+    "id": "F018",
+    "pergunta": "O que é o golpe da falsa central de atendimento?",
+    "resposta": "É uma fraude em que criminosos se passam por funcionários de uma instituição financeira para obter informações ou induzir a pessoa a realizar ações, como informar códigos, instalar aplicativos ou fazer transferências."
+  },
+  {
+    "id": "F019",
+    "pergunta": "O banco pode pedir código de segurança para cancelar uma transação?",
+    "resposta": "Não compartilhe códigos de segurança recebidos no celular ou aplicativo com pessoas que entrarem em contato solicitando essa informação. Em caso de dúvida, encerre o contato e utilize um canal oficial."
+  },
+  {
+    "id": "F020",
+    "pergunta": "Recebi uma oferta de consórcio com contemplação garantida. É confiável?",
+    "resposta": "Promessas de contemplação garantida ou imediata são sinais de alerta. Verifique a administradora, as condições do consórcio e a oferta por canais oficiais antes de realizar qualquer pagamento."
+  },
+  {
+    "id": "F021",
+    "pergunta": "O que devo fazer se passei meus dados para um golpista?",
+    "resposta": "Entre em contato com as instituições envolvidas por canais oficiais e informe o ocorrido. Se houver suspeita de comprometimento de senhas ou acessos, altere as credenciais afetadas e acompanhe suas contas."
+  },
+  {
+    "id": "F022",
+    "pergunta": "O que devo fazer se realizei um Pix para um golpista?",
+    "resposta": "Entre em contato imediatamente com sua instituição financeira por um canal oficial, informe a transação e siga as orientações fornecidas. Guarde comprovantes e outras informações relacionadas ao ocorrido."
+  },
+  {
+    "id": "F023",
+    "pergunta": "O que devo fazer se entreguei minha senha para alguém?",
+    "resposta": "Procure imediatamente a instituição financeira por um canal oficial e siga as orientações de segurança. Se possível, altere a senha comprometida e monitore a conta para identificar movimentações não reconhecidas."
+  },
+  {
+    "id": "F024",
+    "pergunta": "Como posso me proteger de golpes bancários?",
+    "resposta": "Nunca compartilhe senhas ou códigos de segurança, desconfie de solicitações urgentes, evite links recebidos inesperadamente e utilize os canais oficiais da instituição financeira para confirmar informações."
+  },
+  {
+    "id": "F025",
+    "pergunta": "O que o Confira IA pode fazer?",
+    "resposta": "O Confira IA pode analisar informações fornecidas pelo usuário, identificar sinais compatíveis com golpes conhecidos, indicar um nível de risco e apresentar orientações preventivas. Ele não realiza operações bancárias nem confirma definitivamente se uma situação é fraudulenta."
+  }
+]

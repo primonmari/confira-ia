@@ -1,42 +1,235 @@
 [
   {
-    "nome": "Tesouro Selic",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "100% da Selic",
-    "aporte_minimo": 30.00,
-    "indicado_para": "Reserva de emergência e iniciantes"
+    "id": "PF001",
+    "categoria": "Conta bancária",
+    "descricao": "Serviços relacionados à abertura, movimentação e manutenção de contas bancárias.",
+    "possiveis_golpes": [
+      "falso bloqueio de conta",
+      "falsa atualização cadastral",
+      "falsa central de atendimento",
+      "phishing"
+    ],
+    "sinais_de_alerta": [
+      "solicitação de senha",
+      "solicitação de código de segurança",
+      "link para atualização de dados",
+      "ameaça de bloqueio",
+      "senso de urgência"
+    ]
   },
   {
-    "nome": "CDB Liquidez Diária",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "102% do CDI",
-    "aporte_minimo": 100.00,
-    "indicado_para": "Quem busca segurança com rendimento diário"
+    "id": "PF002",
+    "categoria": "Cartão",
+    "descricao": "Serviços relacionados a cartões de crédito e débito.",
+    "possiveis_golpes": [
+      "falsa compra suspeita",
+      "falso cancelamento de cartão",
+      "falsa central de atendimento",
+      "phishing"
+    ],
+    "sinais_de_alerta": [
+      "ligação inesperada",
+      "mensagem sobre compra não reconhecida",
+      "solicitação de código",
+      "pedido de dados do cartão",
+      "pedido para realizar procedimento urgente"
+    ]
   },
   {
-    "nome": "LCI/LCA",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "95% do CDI",
-    "aporte_minimo": 1000.00,
-    "indicado_para": "Quem pode esperar 90 dias (isento de IR)"
+    "id": "PF003",
+    "categoria": "Pix",
+    "descricao": "Sistema de pagamentos instantâneos utilizado para transferências e pagamentos.",
+    "possiveis_golpes": [
+      "falso pedido de Pix",
+      "comprovante falso",
+      "golpe da devolução",
+      "falsa central de atendimento"
+    ],
+    "sinais_de_alerta": [
+      "pedido inesperado de transferência",
+      "pressão para realizar Pix",
+      "comprovante suspeito",
+      "pedido de devolução para outra conta",
+      "história de emergência"
+    ]
   },
   {
-    "nome": "Fundo Multimercado",
-    "categoria": "fundo",
-    "risco": "medio",
-    "rentabilidade": "CDI + 2%",
-    "aporte_minimo": 500.00,
-    "indicado_para": "Perfil moderado que busca diversificação"
+    "id": "PF004",
+    "categoria": "Empréstimo",
+    "descricao": "Operações de crédito nas quais uma instituição disponibiliza determinado valor ao cliente mediante condições previamente estabelecidas.",
+    "possiveis_golpes": [
+      "falso empréstimo",
+      "cobrança antecipada para liberar crédito",
+      "falsa instituição financeira"
+    ],
+    "sinais_de_alerta": [
+      "cobrança antecipada inesperada",
+      "promessa de aprovação garantida",
+      "promessa de crédito sem análise",
+      "solicitação de transferência para liberar o dinheiro",
+      "contato por canal não oficial"
+    ]
   },
   {
-    "nome": "Fundo de Ações",
-    "categoria": "fundo",
-    "risco": "alto",
-    "rentabilidade": "Variável",
-    "aporte_minimo": 100.00,
-    "indicado_para": "Perfil arrojado com foco no longo prazo"
+    "id": "PF005",
+    "categoria": "Investimentos",
+    "descricao": "Aplicações financeiras realizadas com expectativa de obter determinado retorno, de acordo com as características e riscos de cada produto.",
+    "possiveis_golpes": [
+      "falso investimento",
+      "falsa assessoria de investimentos",
+      "pirâmide financeira",
+      "promessa de rentabilidade garantida"
+    ],
+    "sinais_de_alerta": [
+      "promessa de lucro garantido",
+      "rentabilidade muito acima do mercado",
+      "pressão para investir rapidamente",
+      "pedido de transferência para conta de terceiro",
+      "cobrança para liberar valores",
+      "contato por canal não oficial"
+    ]
+  },
+  {
+    "id": "PF006",
+    "categoria": "Boleto e pagamentos",
+    "descricao": "Serviços relacionados ao pagamento de cobranças e boletos.",
+    "possiveis_golpes": [
+      "boleto falso",
+      "cobrança falsa",
+      "alteração de dados de pagamento"
+    ],
+    "sinais_de_alerta": [
+      "beneficiário desconhecido",
+      "cobrança inesperada",
+      "divergência nos dados do beneficiário",
+      "documento recebido por canal desconhecido",
+      "pressão para pagamento imediato"
+    ]
+  },
+  {
+    "id": "PF007",
+    "categoria": "Financiamento",
+    "descricao": "Operação de crédito destinada à aquisição de bens ou serviços, geralmente com pagamento parcelado.",
+    "possiveis_golpes": [
+      "falso financiamento",
+      "cobrança antecipada",
+      "falsa instituição financeira"
+    ],
+    "sinais_de_alerta": [
+      "cobrança antecipada para liberar financiamento",
+      "promessa de aprovação garantida",
+      "solicitação de transferência para conta de terceiro",
+      "contato por canal não oficial",
+      "pressão para fechar o negócio"
+    ]
+  },
+  {
+    "id": "PF008",
+    "categoria": "Seguros",
+    "descricao": "Produtos destinados à proteção financeira contra determinados eventos previstos em contrato.",
+    "possiveis_golpes": ["falso seguro", "falsa cobrança", "falso atendimento"],
+    "sinais_de_alerta": [
+      "cobrança inesperada",
+      "solicitação de pagamento por canal desconhecido",
+      "ameaça de cancelamento",
+      "solicitação de dados sensíveis",
+      "senso de urgência"
+    ]
+  },
+  {
+    "id": "PF009",
+    "categoria": "Consórcio",
+    "descricao": "Modalidade de aquisição de bens ou serviços baseada na formação de um grupo de participantes que contribuem mensalmente para um fundo comum, com contemplações realizadas conforme as regras do contrato.",
+    "possiveis_golpes": [
+      "falso consórcio",
+      "falsa contemplação",
+      "promessa de contemplação garantida",
+      "cobrança antecipada para contemplação",
+      "falso representante de administradora"
+    ],
+    "sinais_de_alerta": [
+      "promessa de contemplação imediata ou garantida",
+      "cobrança de taxa inesperada para liberar a carta de crédito",
+      "solicitação de transferência para conta de terceiro",
+      "oferta com condições muito diferentes das apresentadas oficialmente",
+      "contato por canal não oficial",
+      "pressão para fechar o negócio rapidamente"
+    ]
+  },
+  {
+    "id": "PF010",
+    "categoria": "Previdência",
+    "descricao": "Produtos financeiros destinados à formação de reserva para o futuro, incluindo planos de previdência complementar.",
+    "possiveis_golpes": [
+      "falso resgate de previdência",
+      "falsa atualização cadastral",
+      "falsa central de atendimento",
+      "falsa cobrança"
+    ],
+    "sinais_de_alerta": [
+      "solicitação de senha ou código de segurança",
+      "pedido de pagamento para liberar resgate",
+      "promessa de liberação imediata de valores mediante transferência",
+      "link suspeito para atualização cadastral",
+      "contato por canal não oficial",
+      "ameaça de perda ou bloqueio do benefício"
+    ]
+  },
+  {
+    "id": "PF011",
+    "categoria": "Capitalização",
+    "descricao": "Produto financeiro que combina formação de reserva com possibilidade de participação em sorteios, conforme as condições estabelecidas no contrato.",
+    "possiveis_golpes": [
+      "falso prêmio",
+      "falso resgate",
+      "falsa central de atendimento",
+      "cobrança para liberar prêmio"
+    ],
+    "sinais_de_alerta": [
+      "comunicação inesperada sobre prêmio",
+      "cobrança de taxa para receber prêmio ou resgate",
+      "solicitação de senha ou código de segurança",
+      "pedido de transferência para liberar valores",
+      "link ou contato não oficial",
+      "pressão para realizar o procedimento imediatamente"
+    ]
+  },
+  {
+    "id": "PF012",
+    "categoria": "Câmbio",
+    "descricao": "Serviços relacionados à compra, venda e movimentação de moedas estrangeiras e operações de câmbio.",
+    "possiveis_golpes": [
+      "falsa operação de câmbio",
+      "falsa casa de câmbio",
+      "falsa cotação",
+      "falsa central de atendimento"
+    ],
+    "sinais_de_alerta": [
+      "oferta de cotação muito diferente do mercado",
+      "solicitação de transferência para conta de terceiro",
+      "pedido de pagamento antecipado por canal desconhecido",
+      "contato por aplicativo ou rede social não oficial",
+      "promessa de operação sem procedimentos obrigatórios",
+      "pressão para realizar a transferência rapidamente"
+    ]
+  },
+  {
+    "id": "PF013",
+    "categoria": "Open Finance",
+    "descricao": "Sistema que permite o compartilhamento de dados e informações financeiras entre instituições, mediante autorização do cliente.",
+    "possiveis_golpes": [
+      "falso Open Finance",
+      "falsa solicitação de autorização",
+      "phishing para captura de dados",
+      "falsa central de atendimento"
+    ],
+    "sinais_de_alerta": [
+      "pedido inesperado para compartilhar dados financeiros",
+      "link suspeito para autorizar o compartilhamento",
+      "solicitação de senha ou código de segurança",
+      "pedido para instalar aplicativo desconhecido",
+      "contato por canal não oficial",
+      "pressão para autorizar o compartilhamento imediatamente"
+    ]
   }
 ]

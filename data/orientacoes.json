@@ -1,0 +1,202 @@
+[
+  {
+    "id": "O001",
+    "situacao": "Mensagem com link suspeito",
+    "orientacoes": [
+      "Não clique no link.",
+      "Não informe dados pessoais ou bancários.",
+      "Acesse o serviço diretamente pelo aplicativo ou site oficial.",
+      "Se necessário, entre em contato utilizando um canal oficial."
+    ]
+  },
+  {
+    "id": "O002",
+    "situacao": "Solicitação de senha ou código de segurança",
+    "orientacoes": [
+      "Não compartilhe sua senha.",
+      "Não informe códigos de segurança recebidos por SMS ou aplicativo.",
+      "Encerre o contato se a pessoa insistir na solicitação.",
+      "Procure um canal oficial para confirmar a situação."
+    ]
+  },
+  {
+    "id": "O003",
+    "situacao": "Falsa central de atendimento",
+    "orientacoes": [
+      "Não siga instruções de uma ligação suspeita.",
+      "Não instale aplicativos solicitados durante a ligação.",
+      "Não forneça senhas ou códigos.",
+      "Encerre a ligação e procure o banco por um canal oficial."
+    ]
+  },
+  {
+    "id": "O004",
+    "situacao": "Possível golpe envolvendo Pix",
+    "orientacoes": [
+      "Não realize a transferência apenas por pressão ou urgência.",
+      "Verifique cuidadosamente o destinatário antes de realizar um pagamento.",
+      "Desconfie de pedidos inesperados de transferência.",
+      "Em caso de dúvida, procure orientação por um canal oficial."
+    ]
+  },
+  {
+    "id": "O005",
+    "situacao": "Possível boleto falso",
+    "orientacoes": [
+      "Confira o beneficiário antes de realizar o pagamento.",
+      "Compare os dados da cobrança com a empresa ou pessoa que deveria receber o pagamento.",
+      "Desconfie de cobranças inesperadas.",
+      "Confirme a cobrança por um canal oficial antes de pagar."
+    ]
+  },
+  {
+    "id": "O006",
+    "situacao": "Informação insuficiente",
+    "orientacoes": [
+      "Não realize nenhuma ação financeira enquanto houver dúvida.",
+      "Não forneça informações pessoais ou códigos de segurança.",
+      "Procure informações adicionais em canais oficiais."
+    ]
+  },
+  {
+    "id": "O007",
+    "situacao": "Compra suspeita no cartão",
+    "orientacoes": [
+      "Não forneça os dados do cartão para pessoas que entrarem em contato inesperadamente.",
+      "Verifique a compra diretamente pelo aplicativo ou canal oficial do banco.",
+      "Não siga links recebidos por mensagens para contestar a compra.",
+      "Se a compra não for reconhecida, utilize o procedimento oficial de contestação."
+    ]
+  },
+  {
+    "id": "O008",
+    "situacao": "Cartão perdido ou roubado",
+    "orientacoes": [
+      "Utilize imediatamente o aplicativo ou canal oficial para bloquear o cartão, quando disponível.",
+      "Não aceite ajuda de pessoas desconhecidas para realizar o bloqueio.",
+      "Não forneça senha ou código de segurança.",
+      "Entre em contato com o banco por um canal oficial."
+    ]
+  },
+  {
+    "id": "O009",
+    "situacao": "Falso empréstimo",
+    "orientacoes": [
+      "Desconfie de empréstimos com aprovação garantida ou sem análise.",
+      "Não realize pagamentos antecipados para liberar crédito sem confirmar a operação.",
+      "Não transfira dinheiro para contas de terceiros para liberar um empréstimo.",
+      "Confirme a oferta diretamente com a instituição financeira por um canal oficial."
+    ]
+  },
+  {
+    "id": "O010",
+    "situacao": "Falso financiamento",
+    "orientacoes": [
+      "Desconfie de propostas com aprovação garantida.",
+      "Não realize pagamentos antecipados sem confirmar a operação.",
+      "Verifique a instituição e a proposta por canais oficiais.",
+      "Não transfira valores para contas de terceiros sem confirmar a legitimidade da operação."
+    ]
+  },
+  {
+    "id": "O011",
+    "situacao": "Falso consórcio ou falsa contemplação",
+    "orientacoes": [
+      "Desconfie de promessas de contemplação imediata ou garantida.",
+      "Não realize pagamentos adicionais para supostamente liberar uma carta de crédito sem confirmar a informação.",
+      "Verifique a administradora e as condições do consórcio por canais oficiais.",
+      "Não transfira valores para contas de terceiros sem confirmar a operação."
+    ]
+  },
+  {
+    "id": "O012",
+    "situacao": "Possível golpe envolvendo investimento",
+    "orientacoes": [
+      "Desconfie de promessas de lucro ou rentabilidade garantida.",
+      "Não invista por pressão ou com promessa de retorno rápido.",
+      "Não transfira dinheiro para contas de terceiros sem verificar a instituição e a operação.",
+      "Confirme as informações por canais oficiais antes de realizar qualquer investimento."
+    ]
+  },
+  {
+    "id": "O013",
+    "situacao": "Cobrança desconhecida ou inesperada",
+    "orientacoes": [
+      "Não realize o pagamento imediatamente.",
+      "Verifique a origem da cobrança.",
+      "Confirme a existência da dívida diretamente com a empresa ou instituição por um canal oficial.",
+      "Não forneça dados pessoais ou bancários para confirmar uma cobrança suspeita."
+    ]
+  },
+  {
+    "id": "O014",
+    "situacao": "Pedido de devolução de Pix",
+    "orientacoes": [
+      "Não faça uma nova transferência para devolver um Pix sem verificar a situação.",
+      "Confira o extrato e confirme se o valor realmente foi recebido.",
+      "Utilize os mecanismos oficiais da instituição financeira para realizar uma devolução, quando aplicável.",
+      "Desconfie de pedidos para devolver o dinheiro para uma conta diferente da origem."
+    ]
+  },
+  {
+    "id": "O015",
+    "situacao": "Comprovante de pagamento suspeito",
+    "orientacoes": [
+      "Não considere o comprovante como confirmação definitiva do pagamento.",
+      "Verifique o recebimento diretamente no extrato da conta.",
+      "Confira valor, data e destinatário.",
+      "Não entregue produtos ou realize serviços apenas com base em um comprovante enviado por mensagem."
+    ]
+  },
+  {
+    "id": "O016",
+    "situacao": "Solicitação de acesso remoto ao dispositivo",
+    "orientacoes": [
+      "Não instale aplicativos de acesso remoto por orientação de desconhecidos.",
+      "Não permita que terceiros controlem seu celular ou computador.",
+      "Não compartilhe senhas ou códigos durante o atendimento.",
+      "Encerre o contato e procure a instituição por um canal oficial."
+    ]
+  },
+  {
+    "id": "O017",
+    "situacao": "Aplicativo suspeito",
+    "orientacoes": [
+      "Não instale aplicativos recebidos por links de mensagens ou contatos desconhecidos.",
+      "Baixe aplicativos somente por fontes oficiais e confiáveis.",
+      "Não conceda permissões desnecessárias a aplicativos.",
+      "Se o aplicativo já tiver sido instalado em uma situação suspeita, procure orientação especializada."
+    ]
+  },
+  {
+    "id": "O018",
+    "situacao": "Perfil ou contato falso",
+    "orientacoes": [
+      "Não confie apenas na foto, nome ou logotipo utilizados no perfil.",
+      "Não forneça dados pessoais, senhas ou códigos.",
+      "Não realize pagamentos ou transferências solicitados pelo contato.",
+      "Confirme a identidade utilizando um canal oficial."
+    ]
+  },
+  {
+    "id": "O019",
+    "situacao": "Prêmio, benefício ou cashback inesperado",
+    "orientacoes": [
+      "Desconfie de benefícios que exigem pagamento ou transferência para serem liberados.",
+      "Não clique em links enviados para suposto resgate.",
+      "Não forneça senhas ou códigos de segurança.",
+      "Confirme a existência do benefício diretamente no aplicativo ou canal oficial."
+    ]
+  },
+  {
+    "id": "O020",
+    "situacao": "Possível fraude já realizada",
+    "orientacoes": [
+      "Entre em contato imediatamente com a instituição financeira utilizando um canal oficial.",
+      "Informe o ocorrido e siga as orientações fornecidas pela instituição.",
+      "Se houver uma transação não reconhecida, informe os dados da operação ao banco.",
+      "Altere credenciais de acesso caso exista suspeita de comprometimento.",
+      "Registre as informações disponíveis sobre o ocorrido, como mensagens, contatos e comprovantes."
+    ]
+  }
+]

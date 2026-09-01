@@ -1,0 +1,297 @@
+[
+  {
+    "id": "G001",
+    "tipo": "Phishing",
+    "descricao": "Golpe que utiliza mensagens, e-mails, SMS ou páginas falsas para induzir a pessoa a fornecer informações ou realizar uma ação.",
+    "sinais": [
+      "link suspeito",
+      "senso de urgência",
+      "solicitação de dados pessoais",
+      "solicitação de senha",
+      "solicitação de código de segurança",
+      "ameaça de bloqueio",
+      "página semelhante à de uma instituição"
+    ],
+    "nivel_risco": "alto"
+  },
+  {
+    "id": "G002",
+    "tipo": "Falsa central de atendimento",
+    "descricao": "Golpe em que uma pessoa entra em contato se passando por funcionário de uma instituição financeira para convencer a vítima a realizar procedimentos ou fornecer informações.",
+    "sinais": [
+      "ligação inesperada",
+      "solicitação de senha",
+      "solicitação de código de segurança",
+      "pedido para instalar aplicativo",
+      "orientação para realizar uma transferência",
+      "senso de urgência",
+      "alegação de movimentação suspeita"
+    ],
+    "nivel_risco": "alto"
+  },
+  {
+    "id": "G003",
+    "tipo": "Falso bloqueio de conta",
+    "descricao": "Golpe que utiliza a ameaça de bloqueio ou suspensão da conta para pressionar a pessoa a clicar em um link ou fornecer informações.",
+    "sinais": [
+      "ameaça de bloqueio",
+      "senso de urgência",
+      "link para regularização",
+      "solicitação de dados",
+      "solicitação de código",
+      "mensagem sobre acesso irregular"
+    ],
+    "nivel_risco": "alto"
+  },
+  {
+    "id": "G004",
+    "tipo": "Golpe envolvendo Pix",
+    "descricao": "Situações fraudulentas que utilizam engenharia social para induzir a pessoa a realizar ou devolver um pagamento.",
+    "sinais": [
+      "pedido inesperado de transferência",
+      "comprovante suspeito",
+      "pressão para realizar Pix",
+      "história de emergência",
+      "pedido de devolução para uma conta diferente",
+      "chave Pix desconhecida",
+      "alteração inesperada do destinatário"
+    ],
+    "nivel_risco": "alto"
+  },
+  {
+    "id": "G005",
+    "tipo": "Boleto falso",
+    "descricao": "Golpe que utiliza boletos ou documentos de cobrança falsificados para direcionar o pagamento para um destinatário diferente do esperado.",
+    "sinais": [
+      "beneficiário desconhecido",
+      "cobrança inesperada",
+      "alteração nos dados de pagamento",
+      "documento recebido por canal desconhecido",
+      "divergência nas informações da cobrança",
+      "valor diferente do esperado"
+    ],
+    "nivel_risco": "alto"
+  },
+  {
+    "id": "G006",
+    "tipo": "Falso empréstimo",
+    "descricao": "Golpe em que criminosos oferecem empréstimos com condições aparentemente vantajosas e exigem pagamentos antecipados ou dados pessoais para liberar o crédito.",
+    "sinais": [
+      "promessa de empréstimo fácil",
+      "taxa antecipada para liberar crédito",
+      "solicitação de depósito",
+      "promessa de aprovação garantida",
+      "solicitação de senha ou código",
+      "contato por canal não oficial",
+      "pressão para pagamento imediato"
+    ],
+    "nivel_risco": "alto"
+  },
+  {
+    "id": "G007",
+    "tipo": "Falso consórcio",
+    "descricao": "Golpe que utiliza falsas ofertas de consórcio ou contemplação para induzir a vítima a realizar pagamentos ou fornecer dados pessoais.",
+    "sinais": [
+      "promessa de contemplação imediata",
+      "taxa antecipada",
+      "oferta muito abaixo do mercado",
+      "promessa de carta de crédito garantida",
+      "solicitação de pagamento para liberar crédito",
+      "empresa ou vendedor não verificado",
+      "pressão para fechar contrato"
+    ],
+    "nivel_risco": "alto"
+  },
+  {
+    "id": "G008",
+    "tipo": "Falsa atualização cadastral",
+    "descricao": "Golpe que utiliza uma suposta necessidade de atualização de cadastro para obter dados pessoais, bancários ou códigos de segurança.",
+    "sinais": [
+      "pedido inesperado de atualização",
+      "link para atualizar cadastro",
+      "solicitação de dados pessoais",
+      "solicitação de senha",
+      "solicitação de código de segurança",
+      "ameaça de bloqueio",
+      "mensagem com aparência institucional"
+    ],
+    "nivel_risco": "alto"
+  },
+  {
+    "id": "G009",
+    "tipo": "Golpe do WhatsApp",
+    "descricao": "Golpe em que criminosos utilizam uma conta de WhatsApp falsa, clonada ou obtida por engenharia social para pedir dinheiro ou informações aos contatos da vítima.",
+    "sinais": [
+      "número desconhecido se passando por conhecido",
+      "pedido urgente de dinheiro",
+      "pedido de Pix",
+      "alegação de troca de número",
+      "solicitação de código recebido por SMS",
+      "história de emergência",
+      "mudança repentina de comportamento"
+    ],
+    "nivel_risco": "alto"
+  },
+  {
+    "id": "G010",
+    "tipo": "Falso suporte técnico",
+    "descricao": "Golpe em que criminosos se passam por suporte técnico ou equipe de segurança para obter acesso ao dispositivo ou às informações da vítima.",
+    "sinais": [
+      "contato inesperado",
+      "alegação de problema de segurança",
+      "pedido para instalar aplicativo",
+      "pedido de acesso remoto",
+      "solicitação de senha",
+      "solicitação de código de segurança",
+      "orientação para acessar o aplicativo bancário"
+    ],
+    "nivel_risco": "alto"
+  },
+  {
+    "id": "G011",
+    "tipo": "Golpe do motoboy",
+    "descricao": "Golpe em que criminosos se passam por funcionários de uma instituição financeira e enviam uma pessoa para recolher cartão ou outros documentos.",
+    "sinais": [
+      "pedido para entregar o cartão",
+      "alegação de cartão fraudado",
+      "envio de motoboy para recolhimento",
+      "solicitação de senha",
+      "ligação inesperada",
+      "ameaça de bloqueio",
+      "orientação para inutilizar o cartão"
+    ],
+    "nivel_risco": "alto"
+  },
+  {
+    "id": "G012",
+    "tipo": "Cartão clonado ou transação não reconhecida",
+    "descricao": "Situação em que dados de um cartão podem ter sido utilizados indevidamente para realizar compras ou transações não reconhecidas pelo titular.",
+    "sinais": [
+      "compra não reconhecida",
+      "transação desconhecida",
+      "cobrança inesperada",
+      "diversas compras em sequência",
+      "compra realizada em local desconhecido",
+      "notificação de transação não realizada"
+    ],
+    "nivel_risco": "alto"
+  },
+  {
+    "id": "G013",
+    "tipo": "Falso investimento",
+    "descricao": "Golpe que apresenta oportunidades de investimento com promessas de lucro elevado, rápido ou garantido para induzir a vítima a transferir dinheiro.",
+    "sinais": [
+      "promessa de lucro garantido",
+      "retorno muito acima do mercado",
+      "pressão para investir rapidamente",
+      "pedido de transferência para pessoa desconhecida",
+      "plataforma de investimento suspeita",
+      "dificuldade para retirar o dinheiro",
+      "cobrança de taxa para liberar o resgate"
+    ],
+    "nivel_risco": "alto"
+  },
+  {
+    "id": "G014",
+    "tipo": "Falsa renegociação de dívida",
+    "descricao": "Golpe em que criminosos se passam por instituições financeiras ou empresas de cobrança para oferecer uma falsa negociação ou quitação de dívida.",
+    "sinais": [
+      "cobrança inesperada",
+      "desconto muito elevado",
+      "urgência para pagamento",
+      "boleto suspeito",
+      "Pix para conta desconhecida",
+      "link de negociação suspeito",
+      "ameaça de negativação imediata"
+    ],
+    "nivel_risco": "alto"
+  },
+  {
+    "id": "G015",
+    "tipo": "Falso boleto de financiamento",
+    "descricao": "Golpe em que criminosos enviam boletos falsos relacionados a financiamentos, parcelas ou contratos para direcionar o pagamento a uma conta fraudulenta.",
+    "sinais": [
+      "boleto recebido por canal não oficial",
+      "beneficiário diferente",
+      "valor inesperado",
+      "alteração dos dados bancários",
+      "cobrança fora da data habitual",
+      "pressão para pagamento imediato"
+    ],
+    "nivel_risco": "alto"
+  },
+  {
+    "id": "G016",
+    "tipo": "Falsa promoção ou prêmio",
+    "descricao": "Golpe que informa a vítima sobre um suposto prêmio, benefício ou promoção e exige pagamento ou dados pessoais para liberar a recompensa.",
+    "sinais": [
+      "prêmio inesperado",
+      "promessa de dinheiro fácil",
+      "taxa para liberar prêmio",
+      "pedido de dados pessoais",
+      "pedido de dados bancários",
+      "link suspeito",
+      "urgência para resgatar o prêmio"
+    ],
+    "nivel_risco": "alto"
+  },
+  {
+    "id": "G017",
+    "tipo": "Falso atendimento por redes sociais",
+    "descricao": "Golpe em que criminosos utilizam perfis falsos ou se passam por instituições financeiras em redes sociais para obter dados ou induzir a vítima a realizar pagamentos.",
+    "sinais": [
+      "perfil não oficial",
+      "mensagem privada inesperada",
+      "pedido de dados bancários",
+      "solicitação de código",
+      "link suspeito",
+      "pedido de pagamento",
+      "promessa de solução rápida"
+    ],
+    "nivel_risco": "alto"
+  },
+  {
+    "id": "G018",
+    "tipo": "Falso aplicativo bancário",
+    "descricao": "Golpe que utiliza aplicativos falsos ou maliciosos que imitam aplicativos legítimos para capturar informações ou realizar ações indevidas.",
+    "sinais": [
+      "aplicativo instalado fora da loja oficial",
+      "link recebido por mensagem",
+      "pedido de permissões excessivas",
+      "aparência diferente do aplicativo oficial",
+      "solicitação de senha",
+      "solicitação de código",
+      "comportamento incomum do dispositivo"
+    ],
+    "nivel_risco": "alto"
+  },
+  {
+    "id": "G019",
+    "tipo": "Golpe da falsa devolução de Pix",
+    "descricao": "Golpe em que a vítima recebe uma suposta transferência por engano e é induzida a devolver o dinheiro para uma conta diferente da origem do pagamento.",
+    "sinais": [
+      "alegação de Pix enviado por engano",
+      "pedido urgente de devolução",
+      "comprovante suspeito",
+      "pedido para devolver para outra conta",
+      "pressão emocional",
+      "valor inesperado recebido"
+    ],
+    "nivel_risco": "alto"
+  },
+  {
+    "id": "G020",
+    "tipo": "Roubo de conta ou credenciais",
+    "descricao": "Golpe que busca obter senhas, códigos de autenticação ou outros dados de acesso para assumir o controle de contas digitais ou bancárias.",
+    "sinais": [
+      "solicitação de senha",
+      "solicitação de código SMS",
+      "solicitação de código de autenticação",
+      "link para login",
+      "pedido de confirmação de identidade",
+      "notificação de acesso desconhecido",
+      "alteração não autorizada de dados"
+    ],
+    "nivel_risco": "alto"
+  }
+]

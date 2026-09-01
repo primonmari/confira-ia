@@ -1,0 +1,290 @@
+[
+  {
+    "id": "CT001",
+    "categoria": "phishing",
+    "entrada": "Sua conta será bloqueada hoje. Clique no link abaixo para regularizar seu acesso.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "senso de urgência",
+      "link suspeito",
+      "ameaça de bloqueio"
+    ]
+  },
+  {
+    "id": "CT002",
+    "categoria": "falsa central",
+    "entrada": "Sou do setor de segurança do banco. Para confirmar sua identidade, informe o código que acabou de chegar no seu celular.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "solicitação de código de segurança",
+      "falsa central de atendimento"
+    ]
+  },
+  {
+    "id": "CT003",
+    "categoria": "falso investimento",
+    "entrada": "Tenho uma oportunidade de investimento com lucro garantido de 20% ao mês. Você precisa fazer um Pix hoje para garantir sua vaga.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "promessa de lucro garantido",
+      "rentabilidade muito acima do mercado",
+      "pedido de transferência",
+      "senso de urgência"
+    ]
+  },
+  {
+    "id": "CT004",
+    "categoria": "informação insuficiente",
+    "entrada": "Recebi uma mensagem do meu banco.",
+    "risco_esperado": "insuficiente",
+    "sinais_esperados": []
+  },
+  {
+    "id": "CT005",
+    "categoria": "boleto falso",
+    "entrada": "Recebi um boleto que não esperava e o beneficiário não é o mesmo nome da empresa que normalmente faz a cobrança.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "cobrança inesperada",
+      "beneficiário desconhecido"
+    ]
+  },
+  {
+    "id": "CT006",
+    "categoria": "phishing",
+    "entrada": "Atualize seus dados bancários imediatamente acessando o endereço abaixo. Caso contrário, seu acesso será suspenso.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "link suspeito",
+      "senso de urgência",
+      "ameaça de bloqueio"
+    ]
+  },
+  {
+    "id": "CT007",
+    "categoria": "falsa central",
+    "entrada": "Identificamos uma compra suspeita no seu cartão. Para cancelar a compra, preciso que você confirme o código recebido por SMS.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "solicitação de código de segurança",
+      "falsa central de atendimento",
+      "senso de urgência"
+    ]
+  },
+  {
+    "id": "CT008",
+    "categoria": "falsa central",
+    "entrada": "Seu cartão foi clonado. Para proteger sua conta, instale este aplicativo para que nosso especialista possa acessar seu celular.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "falsa central de atendimento",
+      "pedido para instalar aplicativo",
+      "senso de urgência"
+    ]
+  },
+  {
+    "id": "CT009",
+    "categoria": "pix",
+    "entrada": "Preciso que você faça um Pix agora. É uma emergência e depois explico tudo.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "pedido inesperado de transferência",
+      "apelo emocional",
+      "senso de urgência"
+    ]
+  },
+  {
+    "id": "CT010",
+    "categoria": "pix",
+    "entrada": "Fiz um Pix errado para você. Para devolver, faça um novo Pix para esta outra chave.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "pedido de devolução para outra conta",
+      "pedido inesperado de transferência"
+    ]
+  },
+  {
+    "id": "CT011",
+    "categoria": "falso empréstimo",
+    "entrada": "Seu empréstimo foi aprovado sem análise de crédito. Para liberar o dinheiro, basta pagar uma taxa antecipada.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "cobrança antecipada",
+      "promessa de aprovação garantida"
+    ]
+  },
+  {
+    "id": "CT012",
+    "categoria": "falso empréstimo",
+    "entrada": "Conseguimos liberar seu empréstimo hoje, mas você precisa transferir R$ 500 para cobrir o seguro antes de receber o valor.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "cobrança antecipada",
+      "senso de urgência",
+      "pedido de transferência"
+    ]
+  },
+  {
+    "id": "CT013",
+    "categoria": "boleto falso",
+    "entrada": "Seu boleto está disponível. Faça o pagamento imediatamente para evitar juros. O documento foi enviado por um número que você não conhece.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "cobrança inesperada",
+      "senso de urgência",
+      "canal desconhecido"
+    ]
+  },
+  {
+    "id": "CT014",
+    "categoria": "phishing",
+    "entrada": "Detectamos uma atividade incomum em sua conta. Confirme seus dados clicando neste link para evitar o bloqueio.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "link suspeito",
+      "ameaça de bloqueio",
+      "senso de urgência",
+      "solicitação de dados"
+    ]
+  },
+  {
+    "id": "CT015",
+    "categoria": "falso investimento",
+    "entrada": "Nossa plataforma oferece retorno garantido e sem risco. Invista hoje e dobre seu dinheiro em poucos dias.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "promessa de lucro garantido",
+      "rentabilidade muito acima do mercado"
+    ]
+  },
+  {
+    "id": "CT016",
+    "categoria": "falso investimento",
+    "entrada": "Sou seu novo assessor de investimentos. Para começar, envie o valor diretamente para minha conta pessoal.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "falsa assessoria de investimentos",
+      "pedido de transferência para conta de terceiro",
+      "canal não oficial"
+    ]
+  },
+  {
+    "id": "CT017",
+    "categoria": "cartão",
+    "entrada": "Para confirmar que você é o titular do cartão, informe o número completo, a validade e o código de segurança.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "solicitação de dados sensíveis"
+    ]
+  },
+  {
+    "id": "CT018",
+    "categoria": "falsa central",
+    "entrada": "Detectamos uma fraude na sua conta. Não desligue a ligação enquanto seguimos os procedimentos de segurança.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "falsa central de atendimento",
+      "apelo emocional",
+      "senso de urgência"
+    ]
+  },
+  {
+    "id": "CT019",
+    "categoria": "phishing",
+    "entrada": "Parabéns! Você foi selecionado para receber um benefício. Clique aqui e informe seus dados para receber o dinheiro.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "link suspeito",
+      "solicitação de dados"
+    ]
+  },
+  {
+    "id": "CT020",
+    "categoria": "pix",
+    "entrada": "Seu pagamento precisa ser confirmado agora. Faça o Pix para esta chave e envie o comprovante.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "pedido inesperado de transferência",
+      "senso de urgência"
+    ]
+  },
+  {
+    "id": "CT021",
+    "categoria": "investigação",
+    "entrada": "Uma pessoa que diz trabalhar no banco entrou em contato comigo e pediu informações sobre minha conta, mas não pediu senha nem código.",
+    "risco_esperado": "medio",
+    "sinais_esperados": [
+      "contato inesperado",
+      "possível falsa central de atendimento"
+    ]
+  },
+  {
+    "id": "CT022",
+    "categoria": "investimento",
+    "entrada": "Recebi uma proposta de investimento pelas redes sociais. A pessoa apresentou uma oportunidade, mas ainda não pediu dinheiro nem meus dados.",
+    "risco_esperado": "medio",
+    "sinais_esperados": [
+      "contato por canal não oficial"
+    ]
+  },
+  {
+    "id": "CT023",
+    "categoria": "boleto",
+    "entrada": "Recebi um boleto de uma empresa que conheço, mas não estava esperando essa cobrança.",
+    "risco_esperado": "medio",
+    "sinais_esperados": [
+      "cobrança inesperada"
+    ]
+  },
+  {
+    "id": "CT024",
+    "categoria": "pix",
+    "entrada": "Uma pessoa que não conheço entrou em contato dizendo que fez um Pix para mim por engano e pediu que eu verificasse o recebimento.",
+    "risco_esperado": "medio",
+    "sinais_esperados": [
+      "pedido inesperado relacionado a Pix"
+    ]
+  },
+  {
+    "id": "CT025",
+    "categoria": "conta",
+    "entrada": "Recebi uma mensagem informando que uma atualização cadastral está disponível, mas a mensagem não contém nenhum link e não solicita informações.",
+    "risco_esperado": "baixo",
+    "sinais_esperados": []
+  },
+  {
+    "id": "CT026",
+    "categoria": "informação insuficiente",
+    "entrada": "Meu gerente me mandou uma mensagem.",
+    "risco_esperado": "insuficiente",
+    "sinais_esperados": []
+  },
+  {
+    "id": "CT027",
+    "categoria": "informação insuficiente",
+    "entrada": "Estou com uma dúvida sobre um investimento que fiz.",
+    "risco_esperado": "insuficiente",
+    "sinais_esperados": []
+  },
+  {
+    "id": "CT028",
+    "categoria": "informação insuficiente",
+    "entrada": "Recebi uma ligação sobre meu cartão.",
+    "risco_esperado": "insuficiente",
+    "sinais_esperados": []
+  },
+  {
+    "id": "CT029",
+    "categoria": "baixo risco",
+    "entrada": "Consultei diretamente o aplicativo oficial do banco para verificar meu saldo e não recebi nenhuma solicitação de terceiros.",
+    "risco_esperado": "baixo",
+    "sinais_esperados": []
+  },
+  {
+    "id": "CT030",
+    "categoria": "baixo risco",
+    "entrada": "Acessei o site oficial do banco digitando o endereço no navegador para consultar informações da minha conta.",
+    "risco_esperado": "baixo",
+    "sinais_esperados": []
+  }
+]
