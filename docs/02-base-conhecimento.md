@@ -142,13 +142,6 @@ Orientações relacionadas:
 - Não informar dados pessoais ou bancários.
 - Acessar o serviço diretamente pelo aplicativo ou site oficial.
 - Procurar um canal oficial para confirmar a situação.
-
-
-Regra do agente:
-- Não afirmar que a situação é definitivamente uma fraude.
-- Informar que existem características compatíveis com golpes conhecidos.
-- Apresentar o nível de risco de acordo com os sinais identificados.
-- Orientar o usuário sobre os próximos passos seguros.
 ```
 
 Esse contexto reúne as informações relevantes recuperadas da base de conhecimento e fornece ao modelo os elementos necessários para elaborar uma resposta segura e contextualizada.
