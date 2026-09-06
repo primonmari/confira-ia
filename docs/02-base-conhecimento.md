@@ -4,17 +4,15 @@
 
 A base de conhecimento do **Confira IA** está armazenada na pasta `data` e reúne informações estruturadas sobre golpes bancários e digitais, sinais de alerta, orientações preventivas, produtos e serviços financeiros relacionados a possíveis fraudes, perguntas frequentes e casos utilizados para avaliação do agente.
 
-| Arquivo | Formato | Utilização no Agente |
-|---------|---------|----------------------|
-| `golpes.json` | JSON | Contém os principais tipos de golpes, suas descrições, características e situações relacionadas. |
-| `sinais_alerta.json` | JSON | Contém sinais que podem indicar uma tentativa de golpe, como urgência, solicitação de senhas, códigos de segurança e links suspeitos. |
-| `orientacoes.json` | JSON | Contém orientações preventivas e ações recomendadas para diferentes situações de risco. |
-| `faq.json` | JSON | Contém perguntas frequentes e respostas relacionadas à segurança bancária e digital. |
-| `produtos_financeiros.json` | JSON | Relaciona produtos e serviços financeiros a possíveis golpes e sinais de alerta associados. |
-| `casos_teste.json` | JSON | Contém situações utilizadas para testar e avaliar as respostas e classificações do agente. |
-| `INDIA-SPECIFIC-FRAUD-V1.jsonl` | JSONL | Dataset externo complementar, contendo cenários sintéticos de fraudes e golpes específicos da Índia, utilizado para ampliar os cenários de avaliação do agente. |
-
-
+| Arquivo                         | Formato | Utilização no Agente                                                                                                                                            |
+| ------------------------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `golpes.json`                   | JSON    | Contém os principais tipos de golpes, suas descrições, características e situações relacionadas.                                                                |
+| `sinais_alerta.json`            | JSON    | Contém sinais que podem indicar uma tentativa de golpe, como urgência, solicitação de senhas, códigos de segurança e links suspeitos.                           |
+| `orientacoes.json`              | JSON    | Contém orientações preventivas e ações recomendadas para diferentes situações de risco.                                                                         |
+| `faq.json`                      | JSON    | Contém perguntas frequentes e respostas relacionadas à segurança bancária e digital.                                                                            |
+| `produtos_financeiros.json`     | JSON    | Relaciona produtos e serviços financeiros a possíveis golpes e sinais de alerta associados.                                                                     |
+| `casos_teste.json`              | JSON    | Contém situações utilizadas para testar e avaliar as respostas e classificações do agente.                                                                      |
+| `INDIA-SPECIFIC-FRAUD-V1.jsonl` | JSONL   | Dataset externo complementar, contendo cenários sintéticos de fraudes e golpes específicos da Índia, utilizado para ampliar os cenários de avaliação do agente. |
 
 ---
 
@@ -51,7 +49,6 @@ O dataset contém cenários sintéticos relacionados a fraudes, golpes e crimes 
 
 O dataset externo foi utilizado como fonte complementar de cenários e padrões de golpes, principalmente para ampliar a diversidade dos casos utilizados na avaliação do agente.
 
-
 ### Licença e Atribuição
 
 O dataset está disponível sob a licença CC BY 4.0.
@@ -59,7 +56,6 @@ O dataset está disponível sob a licença CC BY 4.0.
 Para o uso no projeto, a atribuição é feita da seguinte forma:
 
 > VNOVA AI — India-Specific Fraud & Scam Dataset (v1.0), disponível no Hugging Face, sob licença CC BY 4.0.
-
 
 ---
 
@@ -78,23 +74,33 @@ import json
 def carregar_json(caminho):
 
     with open(caminho, "r", encoding="utf-8") as arquivo:
-
         return json.load(arquivo)
 
 
+def carregar_jsonl(caminho):
+
+    dados = []
+
+    with open(caminho, "r", encoding="utf-8") as arquivo:
+        for linha in arquivo:
+            linha = linha.strip()
+
+            if linha:
+                dados.append(json.loads(linha))
+
+    return dados
+
+
+# Carregar arquivos JSON
 golpes = carregar_json("data/golpes.json")
-
 sinais_alerta = carregar_json("data/sinais_alerta.json")
-
 orientacoes = carregar_json("data/orientacoes.json")
-
 faq = carregar_json("data/faq.json")
-
 produtos_financeiros = carregar_json("data/produtos_financeiros.json")
-
 casos_teste = carregar_json("data/casos_teste.json")
 
-INDIA-SPECIFIC-FRAUD-V1("data/INDIA-SPECIFIC-FRAUD-V1.jsonl")
+# Carregar arquivo JSONL
+india_fraud = carregar_jsonl("data/INDIA-SPECIFIC-FRAUD-V1.jsonl")
 
 ```
 
