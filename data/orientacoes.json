@@ -198,5 +198,35 @@
       "Altere credenciais de acesso caso exista suspeita de comprometimento.",
       "Registre as informações disponíveis sobre o ocorrido, como mensagens, contatos e comprovantes."
     ]
+  },
+  {
+    "id": "G021",
+    "tipo": "Bypass de cartão de crédito",
+    "descricao": "Golpe que utiliza engenharia social ou outros métodos fraudulentos para contornar mecanismos de segurança, validação ou bloqueio relacionados ao cartão de crédito. Pode ocorrer presencialmente ou por meios digitais, com o criminoso tentando induzir a vítima a realizar procedimentos, fornecer informações, instalar aplicativos, utilizar dispositivos ou autorizar operações que possam permitir o uso indevido do cartão ou de seus dados.",
+    "sinais": [
+      "alegação de bloqueio, problema ou necessidade de atualização do cartão",
+      "abordagem presencial ou contato por telefone, mensagem, e-mail ou redes sociais",
+      "criminoso se passando por funcionário de banco, empresa ou serviço autorizado",
+      "solicitação para instalar aplicativo para supostamente desbloquear, atualizar ou regularizar o cartão",
+      "pedido para inserir ou aproximar o cartão em leitor ou dispositivo desconhecido",
+      "solicitação de senha, código de segurança ou outros dados do cartão",
+      "pedido para informar ou confirmar dados do cartão durante um contato inesperado",
+      "orientação para realizar procedimentos no celular, computador ou cartão sob pressão ou urgência",
+      "tentativa de convencer a vítima a ignorar, desativar ou contornar mecanismos de segurança",
+      "solicitação para autorizar uma operação alegando que ela é necessária para desbloquear ou proteger o cartão",
+      "tentativa de obter acesso ao dispositivo ou à conta da vítima para realizar procedimentos relacionados ao cartão"
+    ],
+    "orientacoes": [
+      "Não forneça dados do cartão, senha ou códigos de segurança em contatos inesperados.",
+      "Não instale aplicativos por orientação de pessoas que aleguem representar o banco ou a administradora do cartão.",
+      "Não insira ou aproxime o cartão em leitores ou dispositivos desconhecidos.",
+      "Não permita que terceiros tenham acesso ao seu celular, computador ou aplicativo bancário.",
+      "Não autorize transações ou procedimentos apenas para supostamente desbloquear ou regularizar o cartão.",
+      "Não desative mecanismos de segurança ou autenticação a pedido de terceiros.",
+      "Encerre contatos suspeitos e procure o banco ou emissor do cartão utilizando um canal oficial.",
+      "Verifique diretamente no aplicativo ou site oficial se existe algum bloqueio, alerta ou solicitação relacionada ao cartão.",
+      "Se o cartão ou seus dados tiverem sido comprometidos, bloqueie o cartão imediatamente pelos canais oficiais.",
+      "Se houver uma transação não reconhecida, utilize o procedimento oficial da instituição para contestá-la."
+    ]
   }
 ]

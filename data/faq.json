@@ -121,6 +121,11 @@
   },
   {
     "id": "F025",
+    "pergunta": "O que é o bypass de cartão de crédito?",
+    "resposta": "É um tipo de fraude em que o criminoso tenta superar as proteções ou procedimentos de segurança do cartão para conseguir uma operação indevida. Pode envolver abordagens presenciais ou contatos por telefone e meios digitais, nos quais a vítima é induzida a instalar aplicativos, utilizar equipamentos, fornecer informações ou autorizar procedimentos relacionados ao cartão. Desconfie de qualquer pessoa que peça esse tipo de ação para supostamente desbloquear, regularizar ou proteger seu cartão."
+  },
+  {
+    "id": "F026",
     "pergunta": "O que o Confira IA pode fazer?",
     "resposta": "O Confira IA pode analisar informações fornecidas pelo usuário, identificar sinais compatíveis com golpes conhecidos, indicar um nível de risco e apresentar orientações preventivas. Ele não realiza operações bancárias nem confirma definitivamente se uma situação é fraudulenta."
   }

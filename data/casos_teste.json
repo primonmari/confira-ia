@@ -44,10 +44,7 @@
     "categoria": "boleto falso",
     "entrada": "Recebi um boleto que não esperava e o beneficiário não é o mesmo nome da empresa que normalmente faz a cobrança.",
     "risco_esperado": "alto",
-    "sinais_esperados": [
-      "cobrança inesperada",
-      "beneficiário desconhecido"
-    ]
+    "sinais_esperados": ["cobrança inesperada", "beneficiário desconhecido"]
   },
   {
     "id": "CT006",
@@ -173,9 +170,7 @@
     "categoria": "cartão",
     "entrada": "Para confirmar que você é o titular do cartão, informe o número completo, a validade e o código de segurança.",
     "risco_esperado": "alto",
-    "sinais_esperados": [
-      "solicitação de dados sensíveis"
-    ]
+    "sinais_esperados": ["solicitação de dados sensíveis"]
   },
   {
     "id": "CT018",
@@ -193,10 +188,7 @@
     "categoria": "phishing",
     "entrada": "Parabéns! Você foi selecionado para receber um benefício. Clique aqui e informe seus dados para receber o dinheiro.",
     "risco_esperado": "alto",
-    "sinais_esperados": [
-      "link suspeito",
-      "solicitação de dados"
-    ]
+    "sinais_esperados": ["link suspeito", "solicitação de dados"]
   },
   {
     "id": "CT020",
@@ -223,27 +215,21 @@
     "categoria": "investimento",
     "entrada": "Recebi uma proposta de investimento pelas redes sociais. A pessoa apresentou uma oportunidade, mas ainda não pediu dinheiro nem meus dados.",
     "risco_esperado": "medio",
-    "sinais_esperados": [
-      "contato por canal não oficial"
-    ]
+    "sinais_esperados": ["contato por canal não oficial"]
   },
   {
     "id": "CT023",
     "categoria": "boleto",
     "entrada": "Recebi um boleto de uma empresa que conheço, mas não estava esperando essa cobrança.",
     "risco_esperado": "medio",
-    "sinais_esperados": [
-      "cobrança inesperada"
-    ]
+    "sinais_esperados": ["cobrança inesperada"]
   },
   {
     "id": "CT024",
     "categoria": "pix",
     "entrada": "Uma pessoa que não conheço entrou em contato dizendo que fez um Pix para mim por engano e pediu que eu verificasse o recebimento.",
     "risco_esperado": "medio",
-    "sinais_esperados": [
-      "pedido inesperado relacionado a Pix"
-    ]
+    "sinais_esperados": ["pedido inesperado relacionado a Pix"]
   },
   {
     "id": "CT025",
@@ -286,5 +272,31 @@
     "entrada": "Acessei o site oficial do banco digitando o endereço no navegador para consultar informações da minha conta.",
     "risco_esperado": "baixo",
     "sinais_esperados": []
+  },
+  {
+    "id": "CT031",
+    "categoria": "bypass de cartão de crédito",
+    "entrada": "Uma pessoa se apresentou como funcionária do banco e disse que meu cartão estava bloqueado. Ela pediu para eu instalar um aplicativo e colocar o cartão em um leitor para fazer o desbloqueio.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "abordagem presencial suspeita",
+      "alegação de bloqueio do cartão",
+      "pedido para instalar aplicativo",
+      "solicitação para utilizar leitor desconhecido",
+      "suposto procedimento de desbloqueio"
+    ]
+  },
+  {
+    "id": "CT032",
+    "categoria": "bypass de cartão de crédito",
+    "entrada": "Recebi uma ligação dizendo que havia uma falha de segurança no meu cartão. A pessoa pediu que eu seguisse algumas instruções no aplicativo e autorizasse uma operação para liberar novamente o cartão.",
+    "risco_esperado": "alto",
+    "sinais_esperados": [
+      "contato inesperado",
+      "alegação de falha de segurança",
+      "instruções para realizar procedimento no aplicativo",
+      "pedido para autorizar uma operação",
+      "suposta regularização do cartão"
+    ]
   }
 ]

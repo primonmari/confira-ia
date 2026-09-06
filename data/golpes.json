@@ -293,5 +293,21 @@
       "alteração não autorizada de dados"
     ],
     "nivel_risco": "alto"
+  },
+  {
+    "id": "G021",
+    "tipo": "Bypass de cartão de crédito",
+    "descricao": "Fraude em que o criminoso tenta superar barreiras de proteção do cartão para conseguir uma operação indevida, utilizando abordagens presenciais, contatos falsos ou recursos digitais para induzir o titular a colaborar com o procedimento.",
+    "sinais": [
+      "alegação de que o cartão apresenta bloqueio ou irregularidade",
+      "pessoa desconhecida oferecendo auxílio para liberar o cartão",
+      "pedido para utilizar máquina, leitor ou equipamento apresentado pelo suspeito",
+      "orientação para baixar programa ou aplicativo relacionado ao cartão",
+      "pedido de informações que normalmente não seriam solicitadas dessa forma",
+      "tentativa de obter autorização para uma operação durante o contato",
+      "insistência para que o titular siga instruções imediatamente",
+      "movimentações ou compras desconhecidas após o atendimento"
+    ],
+    "nivel_risco": "alto"
   }
 ]
