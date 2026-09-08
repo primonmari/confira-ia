@@ -256,6 +256,7 @@ Além da avaliação qualitativa, o projeto pode futuramente acompanhar métrica
 
 ```powershell
 Primeiro PowerShell:
+
 $env:OLLAMA_HOST="127.0.0.1:11434"
 Get-Process ollama* | Stop-Process -Force
 $env:OLLAMA_LLM_LIBRARY="cpu"
