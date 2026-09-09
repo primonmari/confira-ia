@@ -269,7 +269,8 @@ streamlit run .\src\app.py
 
 # Considerações sobre a Avaliação
 
-Como o Confira IA já possui o arquivo `casos_teste.json`, os casos presentes nesse arquivo foram utilizados como referência para os testes estruturados do agente.
+
+A avaliação do Confira IA foi realizada a partir de diferentes cenários e informações disponíveis na base de dados do projeto.
 
 A avaliação considerou o seguinte fluxo:
 
