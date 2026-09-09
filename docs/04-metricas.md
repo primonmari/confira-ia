@@ -278,6 +278,6 @@ A avaliação considerou o seguinte fluxo:
 
 De modo geral, o Confira IA apresentou um bom desempenho nos testes realizados, mantendo corretamente a classificação de risco definida pela aplicação e apresentando respostas adequadas aos diferentes cenários avaliados.
 
-Durante os testes, o tempo de geração das respostas ficou em torno de 1 a 2 minutoS, o que torna a execução um pouco lenta. Em alguns momentos, também ocorreram travamentos na máquina durante a execução do modelo, principalmente devido à limitação de hardware.
+Durante os testes, o tempo de geração das respostas ficou em torno de 1 a 2 minutos, o que torna a execução um pouco lenta. Em alguns momentos, também ocorreram travamentos na máquina durante a execução do modelo, principalmente devido à limitação de hardware.
 
 Como possibilidade de melhoria, podem ser realizados testes com modelos de maior capacidade e diferentes configurações. Entretanto, essa avaliação está limitada ao modelo `gemma2:2b`, utilizado por meio do Ollama, devido às limitações de hardware da máquina disponível para a execução local do projeto.
