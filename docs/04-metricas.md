@@ -8,7 +8,7 @@ Os testes foram elaborados para verificar se o agente consegue:
 
 - Identificar sinais de alerta em situações suspeitas;
 - Classificar corretamente o nível de risco;
-- Utilizar o emoji correspondente ao nível de risco;
+- Estrutura da resposta;
 - Fornecer orientações preventivas adequadas;
 - Evitar afirmar que uma situação é definitivamente um golpe sem evidências suficientes;
 - Reconhecer situações que estão fora do seu escopo;
@@ -23,7 +23,7 @@ Os testes foram elaborados para verificar se o agente consegue:
 | **Assertividade** | Verifica se o agente identifica corretamente os sinais de alerta presentes na situação relatada pelo usuário. |
 | **Segurança** | Avalia se o agente evita solicitar ou expor informações sensíveis, como senhas, códigos de autenticação e dados bancários. |
 | **Coerência** | Verifica se a resposta é compatível com a situação apresentada e com o nível de risco identificado. |
-| **Classificação de risco** | Avalia se o agente apresenta corretamente o nível de risco baixo, médio ou alto, utilizando o emoji correspondente. |
+| **Classificação de risco** | Avalia se o agente apresenta corretamente o nível de risco baixo, médio ou alto. |
 | **Orientação preventiva** | Verifica se o agente fornece recomendações práticas e seguras para reduzir possíveis riscos. |
 | **Limites do conhecimento** | Avalia se o agente reconhece quando não possui informações suficientes para confirmar uma situação. |
 
@@ -227,12 +227,10 @@ Esse comportamento pode estar relacionado às limitações do modelo utilizado, 
 - As respostas fornecem orientações preventivas para reduzir possíveis riscos;
 - O sistema utiliza uma base de conhecimento para contextualizar as respostas.
 
-## O que pode melhorar
+## Melhorias futuras
 
-- Realizar testes com um número maior de situações diferentes;
 - Ampliar a base de conceitos e palavras-chave relacionadas a golpes;
 - Melhorar o reconhecimento de frases com o mesmo significado, mas palavras diferentes;
-- Avaliar se a classificação de risco permanece consistente em situações semelhantes;
 - Testar diferentes modelos de linguagem para comparar a qualidade das respostas;
 - Coletar avaliações de usuários reais para medir clareza, utilidade e facilidade de compreensão;
 - Implementar métricas relacionadas ao tempo de resposta da aplicação.
@@ -243,11 +241,11 @@ Esse comportamento pode estar relacionado às limitações do modelo utilizado, 
 
 Além da avaliação qualitativa, o projeto pode futuramente acompanhar métricas técnicas, como:
 
-- Tempo de resposta: durante os testes, o tempo médio para geração das respostas foi de aproximadamente 1 minuto e 11 segundos.
+- Tempo de resposta: durante os testes, o tempo médio para geração das respostas foi de aproximadamente tempo superior de 1 a 2 minutos.
 - Taxa de erros: não foram identificados erros que impedissem o funcionamento da aplicação durante os testes realizados. O agente apresentou bom comportamento nas situações avaliadas.
 - Consistência da classificação: o nível de risco apresentado pelo modelo permaneceu correto em relação à classificação definida pela aplicação.
 - Aderência ao formato: o modelo manteve corretamente o restante do formato esperado das mensagens. Entretanto, apresentou uma inconsistência recorrente nos emojis: independentemente do nível de risco, utilizava o emoji 🚨, correspondente ao risco alto. A classificação textual do risco permaneceu correta.
-- Cobertura dos testes: foram realizados 8 cenários de teste, abrangendo solicitações de código, senha, links suspeitos, Pix, perguntas fora do escopo, informações inexistentes, informações insuficientes e tentativas de manipulação das instruções.
+- Cobertura dos testes: foram realizados em torno de 40 cenários de teste, sendo 8 cenários documentados neste projeto, abrangendo solicitações de código, senha, links suspeitos, Pix, perguntas fora do escopo, informações inexistentes, informações insuficientes e tentativas de manipulação das instruções.
 - Uso de recursos: durante a execução do Ollama, ocorreu um erro relacionado à utilização da GPU/CUDA. Para solucionar o problema, o servidor foi configurado para utilizar a CPU. O processo do Ollama que estava em execução foi encerrado e o servidor reiniciado com a nova configuração. Em seguida, a aplicação foi executada pelo Streamlit utilizando o arquivo `app.py`.
 
 ### Comandos utilizados
@@ -279,6 +277,6 @@ A avaliação considerou o seguinte fluxo:
 
 De modo geral, o Confira IA apresentou um bom desempenho nos testes realizados, mantendo corretamente a classificação de risco definida pela aplicação e apresentando respostas adequadas aos diferentes cenários avaliados.
 
-Durante os testes, o tempo de geração das respostas ficou em torno de 1 minuto, o que torna a execução um pouco lenta. Em alguns momentos, também ocorreram travamentos na máquina durante a execução do modelo, principalmente devido à limitação de hardware, considerando que o equipamento possui 8 GB de memória RAM.
+Durante os testes, o tempo de geração das respostas ficou em torno de 1 a 2 minutoS, o que torna a execução um pouco lenta. Em alguns momentos, também ocorreram travamentos na máquina durante a execução do modelo, principalmente devido à limitação de hardware.
 
 Como possibilidade de melhoria, podem ser realizados testes com modelos de maior capacidade e diferentes configurações. Entretanto, essa avaliação está limitada ao modelo `gemma2:2b`, utilizado por meio do Ollama, devido às limitações de hardware da máquina disponível para a execução local do projeto.
