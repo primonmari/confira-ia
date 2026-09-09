@@ -248,7 +248,7 @@ Além da avaliação qualitativa, o projeto pode futuramente acompanhar métrica
 - Cobertura dos testes: foram realizados em torno de 40 cenários de teste, sendo 8 cenários documentados neste projeto, abrangendo solicitações de código, senha, links suspeitos, Pix, perguntas fora do escopo, informações inexistentes, informações insuficientes e tentativas de manipulação das instruções.
 - Uso de recursos: durante a execução do Ollama, ocorreu um erro relacionado à utilização da GPU/CUDA. Para solucionar o problema, o servidor foi configurado para utilizar a CPU. O processo do Ollama que estava em execução foi encerrado e o servidor reiniciado com a nova configuração. Em seguida, a aplicação foi executada pelo Streamlit utilizando o arquivo `app.py`.
 
-### Comandos utilizados
+### Comandos utilizados para solucionar o erro de instalação
 
 
 
@@ -281,3 +281,4 @@ De modo geral, o Confira IA apresentou um bom desempenho nos testes realizados, 
 Durante os testes, o tempo de geração das respostas ficou em torno de 1 a 2 minutos, o que torna a execução um pouco lenta. Em alguns momentos, também ocorreram travamentos na máquina durante a execução do modelo, principalmente devido à limitação de hardware.
 
 Como possibilidade de melhoria, podem ser realizados testes com modelos de maior capacidade e diferentes configurações. Entretanto, essa avaliação está limitada ao modelo `gemma2:2b`, utilizado por meio do Ollama, devido às limitações de hardware da máquina disponível para a execução local do projeto.
+
