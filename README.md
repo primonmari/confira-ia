@@ -19,7 +19,7 @@ Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots
 
 **Persona e Tom de Voz:** O agente tem personalidade preventiva, educativa, objetiva e cuidadosa. Não afirma que uma situação é definitivamente fraude, mas destaca sinais de alerta, explica sua relevância e orienta comportamentos mais seguros. Quando não há informação suficiente, declara essa limitação em vez de arriscar uma conclusão. A comunicação é acessível e clara, evitando termos técnicos de segurança digital sem explicação.
 
-**Arquitetura:** O usuário descreve a situação suspeita → o agente compara o relato com sua base de conhecimento de golpes conhecidos → uma camada de validação verifica a consistência da resposta → o agente retorna nível de risco, sinais identificados, explicação e orientação preventiva.
+**Arquitetura:** O usuário descreve a situação suspeita → o sistema identifica conceitos e busca informações relacionadas na base de conhecimento → os sinais de alerta encontrados são pontuados para definir o nível de risco → o contexto com evidências e orientações é enviado ao agente → o agente gera a resposta final com o nível de risco, sinais identificados, explicação e orientação preventiva.
 
 **Segurança:** O agente só responde com base na base de conhecimento disponível, sempre expõe os sinais que fundamentam sua classificação de risco, nunca solicita dados sensíveis (senhas, tokens, códigos), nunca realiza operações financeiras e nunca afirma com certeza absoluta que algo é ou não fraude.
 
@@ -52,7 +52,7 @@ Os dados utilizados são estruturados para servir como referência durante a an�
 
 ### 3. Prompts do Agente
 
-**System Prompt:** Define o comportamento do agente como analista preventivo de sinais de risco — nunca confirma fraude, nunca solicita dados sensíveis, sempre expõe os sinais usados na análise e declara incerteza quando os dados são insuficientes.
+**System Prompt:** Define o comportamento do agente como analista preventivo de sinais de risco, nunca confirma fraude, nunca solicita dados sensíveis, sempre expõe os sinais usados na análise e declara incerteza quando os dados são insuficientes.
 
 **Exemplos de Interação:** Cenários cobrindo casos claros de golpe (ex: mensagem de bloqueio de conta com link), casos ambíguos (relato incompleto) e casos legítimos (mensagem sem sinais de risco).
 
