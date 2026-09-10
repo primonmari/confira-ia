@@ -78,10 +78,12 @@ Protótipo funcional do Confira IA:
 
 **Métricas utilizadas:**
 
-- Precisão na identificação de sinais de risco em relatos de golpe
-- Taxa de respostas seguras (sem alucinação ou conclusões infundadas sobre fraude)
-- Coerência entre os sinais identificados e a explicação apresentada ao usuário
-- Taxa de reconhecimento correto de "informação insuficiente" quando aplicável
+- Assertividade na identificação de sinais de risco em relatos de golpe
+- Segurança das respostas, evitando solicitações ou exposição de informações sensíveis
+- Coerência entre a situação apresentada, os sinais identificados e a resposta gerada
+- Correção da classificação do nível de risco
+- Adequação das orientações preventivas
+- Reconhecimento de situações com informações insuficientes ou fora do escopo
 
 📄 **Detalhes:** [`docs/04-metricas.md`](./docs/04-metricas.md)
 
