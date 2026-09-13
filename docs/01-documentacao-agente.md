@@ -80,21 +80,26 @@ Quando utilizar conceitos de segurança, como phishing ou engenharia social, o a
 ## Arquitetura
 
 ### Diagrama
-
 ```mermaid
 flowchart TD
     A[Usuário] -->|Mensagem ou situação| B[Interface]
-    B --> C[LLM + Prompt]
-    C --> D[Base de Conhecimento]
-    D --> C
-    C --> E[Análise de Sinais]
-    E --> F[Validação]
-    F --> G[Resultado]
-    G --> H[Nível de Risco]
-    G --> I[Sinais Identificados]
-    G --> J[Orientações Preventivas]
-```
+    B --> C[Validação de situação concreta]
 
+    C -->|Não há informações suficientes| D[Solicitar mais informações]
+    C -->|Situação concreta identificada| E[Buscar informações na base]
+
+    E --> F[Identificação de sinais]
+    F --> G[Cálculo da pontuação de risco]
+    G --> H[Classificação do risco]
+
+    H --> I[LLM + Prompt]
+    E --> I
+
+    I --> J[Resposta final]
+    J --> K[Nível de Risco]
+    J --> L[Sinais Identificados]
+    J --> M[Orientações Preventivas]
+```
 ### Componentes
 
 | Componente           | Descrição                                                                                      |
@@ -135,3 +140,9 @@ flowchart TD
 - Não garante a detecção de todos os tipos de golpes.
 - Suas análises são baseadas nas informações fornecidas pelo usuário e na base de conhecimento disponível.
 - Quando não houver informações suficientes, o agente deve declarar a incerteza em vez de apresentar uma conclusão.
+
+
+
+
+
+
