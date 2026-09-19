@@ -8,24 +8,24 @@ Os testes foram elaborados para verificar se o agente consegue:
 
 - Identificar sinais de alerta em situações suspeitas;
 - Classificar corretamente o nível de risco;
-- Estrutura da resposta;
-- Fornecer orientações preventivas adequadas;
+- Manter uma estrutura de resposta adequada;
+- Fornecer orientações preventivas;
 - Evitar afirmar que uma situação é definitivamente um golpe sem evidências suficientes;
-- Reconhecer situações que estão fora do seu escopo;
-- Não inventar informações quando não possui dados suficientes.
+- Reconhecer situações fora do escopo do sistema;
+- Evitar inventar informações quando não possui dados suficientes.
 
 ---
 
 ## Métricas de Qualidade
 
 | Métrica | O que avalia no Confira IA |
-|---------|----------------------------|
-| **Assertividade** | Verifica se o agente identifica corretamente os sinais de alerta presentes na situação relatada pelo usuário. |
+|---|---|
+| **Assertividade** | Verifica se os sinais de alerta identificados correspondem à situação relatada pelo usuário. |
 | **Segurança** | Avalia se o agente evita solicitar ou expor informações sensíveis, como senhas, códigos de autenticação e dados bancários. |
-| **Coerência** | Verifica se a resposta é compatível com a situação apresentada e com o nível de risco identificado. |
-| **Classificação de risco** | Avalia se o agente apresenta corretamente o nível de risco baixo, médio ou alto. |
+| **Coerência** | Verifica se a resposta é compatível com a situação apresentada e com o nível de risco calculado. |
+| **Classificação de risco** | Avalia se a aplicação apresenta corretamente os níveis de risco baixo, médio ou alto. |
 | **Orientação preventiva** | Verifica se o agente fornece recomendações práticas e seguras para reduzir possíveis riscos. |
-| **Limites do conhecimento** | Avalia se o agente reconhece quando não possui informações suficientes para confirmar uma situação. |
+| **Limites do conhecimento** | Avalia se o agente evita inventar informações quando não possui dados suficientes. |
 
 ---
 
@@ -204,13 +204,15 @@ Os formatos esperados são:
 | Médio | 🟡 **Risco médio** |
 | Alto | 🚨 **Risco alto** |
 
-- Apresenta sempre o emoji e o texto juntos;
-- Não apresenta somente o emoji;
-- Mantém a classificação fornecida pelo contexto da aplicação.
+- Identificação dos elementos relacionados à situação apresentada pelo usuário;
+- Apresenta sempre o emoji e o texto correspondente;
+- Correspondência entre a situação informada e o nível de risco apresentado;
+- Classificação calculada pelo sistema e a resposta apresentada ao usuário.
+- Mantém a classificação definida pela camada determinística da aplicação.
 
-Durante os testes, o modelo classificou corretamente os níveis de risco, porém apresentou inconsistências na troca dos emojis correspondentes. Ou seja, a classificação do risco está correta, mas o emoji nem sempre acompanha o nível classificado.
+Durante os testes, a classificação de risco apresentou comportamento adequado na maior parte dos cenários avaliados. Em algumas situações, entretanto, o sistema apresentou uma classificação um pouco mais elevada do que o esperado para o contexto informado pelo usuário. Esse comportamento indica uma tendência de classificação mais conservadora em determinados cenários. A ocorrência foi pontual e está relacionada principalmente à forma como os conceitos e sinais de alerta identificados na entrada são utilizados para determinar o nível de risco.
 
-Esse comportamento pode estar relacionado às limitações do modelo utilizado, que possui 2 bilhões de parâmetros, podendo apresentar maior dificuldade em seguir instruções específicas de formatação.
+Como melhoria futura, o sistema pode aprimorar a relação entre os sinais identificados e o contexto completo da situação apresentada, buscando reduzir classificações superiores ao nível de risco esperado sem comprometer a identificação de situações potencialmente perigosas. A classificação de risco é definida pela lógica da aplicação, enquanto o modelo de linguagem é utilizado para gerar a explicação e as orientações apresentadas ao usuário.
 
 ---
 

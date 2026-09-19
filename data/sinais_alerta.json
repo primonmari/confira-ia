@@ -1,99 +1,449 @@
 [
-  {
-    "id": "S001",
-    "nome": "Senso de urgência",
-    "descricao": "A mensagem tenta fazer a pessoa agir imediatamente, sem tempo para verificar a informação.",
-    "indicadores": [
-      "urgente",
-      "imediatamente",
-      "última chance",
-      "faça agora",
-      "sua conta será bloqueada"
-    ],
-    "peso": 2
-  },
-  {
-    "id": "S002",
-    "nome": "Solicitação de código de segurança",
-    "descricao": "A pessoa é orientada a informar um código recebido por SMS, aplicativo ou outro meio de autenticação.",
-    "indicadores": [
-      "código recebido",
-      "código SMS",
-      "token",
-      "código de confirmação"
-    ],
-    "peso": 3
-  },
-  {
-    "id": "S003",
-    "nome": "Solicitação de senha",
-    "descricao": "A pessoa é solicitada a informar sua senha ou outra credencial de acesso.",
-    "indicadores": [
-      "senha",
-      "senha do banco",
-      "senha de acesso",
-      "informar senha"
-    ],
-    "peso": 3
-  },
-  {
-    "id": "S004",
-    "nome": "Link suspeito",
-    "descricao": "A mensagem direciona a pessoa para um link para realizar uma ação relacionada à conta ou aos dados pessoais.",
-    "indicadores": [
-      "clique aqui",
-      "acesse o link",
-      "regularize sua conta",
-      "atualize seus dados"
-    ],
-    "peso": 3
-  },
-  {
-    "id": "S005",
-    "nome": "Ameaça ou consequência",
-    "descricao": "A mensagem apresenta uma consequência negativa caso a pessoa não realize determinada ação.",
-    "indicadores": [
-      "conta será bloqueada",
-      "conta será encerrada",
-      "perderá o acesso",
-      "pagamento será cancelado"
-    ],
-    "peso": 2
-  },
-  {
-    "id": "S006",
-    "nome": "Pedido para instalar aplicativo",
-    "descricao": "A pessoa é orientada a instalar um aplicativo ou programa para supostamente resolver um problema.",
-    "indicadores": [
-      "instale o aplicativo",
-      "baixe o aplicativo",
-      "aplicativo de segurança",
-      "acesso remoto"
-    ],
-    "peso": 3
-  },
-  {
-    "id": "S007",
-    "nome": "Pedido inesperado de transferência",
-    "descricao": "A pessoa recebe uma solicitação inesperada para realizar uma transferência ou Pix.",
-    "indicadores": [
-      "faça um Pix",
-      "transfira o dinheiro",
-      "envie o valor",
-      "realize a transferência"
-    ],
-    "peso": 3
-  },
-  {
-    "id": "S008",
-    "nome": "Apelo emocional",
-    "descricao": "A abordagem utiliza medo, preocupação ou pressão emocional para influenciar a decisão.",
-    "indicadores": [
-      "situação urgente",
-      "problema grave",
-      "precisamos resolver agora",
-      "não conte para ninguém"
-    ],
-    "peso": 2
-  }
+{
+"id": "S001",
+"nome": "Senso de urgência",
+"descricao": "A mensagem tenta fazer a pessoa agir imediatamente, sem tempo para verificar a informação.",
+"indicadores": [
+"urgente",
+"imediatamente",
+"última chance",
+"faça agora",
+"resolva agora",
+"não perca tempo",
+"hoje",
+"agora"
+],
+"peso": 2
+},
+{
+"id": "S002",
+"nome": "Solicitação de código de segurança",
+"descricao": "A pessoa é orientada a informar um código recebido por SMS, aplicativo ou outro meio de autenticação.",
+"indicadores": [
+"código recebido",
+"código SMS",
+"código por SMS",
+"token",
+"código de confirmação",
+"código de segurança",
+"código de autenticação"
+],
+"peso": 3
+},
+{
+"id": "S003",
+"nome": "Solicitação de senha",
+"descricao": "A pessoa é solicitada a informar sua senha ou outra credencial de acesso.",
+"indicadores": [
+"senha",
+"senha do banco",
+"senha de acesso",
+"informar senha",
+"digite sua senha"
+],
+"peso": 3
+},
+{
+"id": "S004",
+"nome": "Link suspeito",
+"descricao": "A mensagem direciona a pessoa para um link ou endereço para realizar uma ação relacionada à conta ou aos dados pessoais.",
+"indicadores": [
+"clique aqui",
+"acesse o link",
+"clique no link",
+"acesse este link",
+"regularize sua conta",
+"atualize seus dados",
+"endereço abaixo"
+],
+"peso": 3
+},
+{
+"id": "S005",
+"nome": "Ameaça de bloqueio",
+"descricao": "A mensagem afirma que a conta, cartão ou acesso será bloqueado ou suspenso caso determinada ação não seja realizada.",
+"indicadores": [
+"conta será bloqueada",
+"conta será encerrada",
+"seu acesso será suspenso",
+"perderá o acesso",
+"cartão será bloqueado",
+"acesso será bloqueado",
+"será bloqueado"
+],
+"peso": 2
+},
+{
+"id": "S006",
+"nome": "Pedido para instalar aplicativo",
+"descricao": "A pessoa é orientada a instalar um aplicativo ou programa para supostamente resolver um problema ou realizar um procedimento de segurança.",
+"indicadores": [
+"instale o aplicativo",
+"baixe o aplicativo",
+"aplicativo de segurança",
+"instale este aplicativo",
+"baixe este aplicativo",
+"acesso remoto"
+],
+"peso": 3
+},
+{
+"id": "S007",
+"nome": "Pedido inesperado de transferência",
+"descricao": "A pessoa recebe uma solicitação inesperada para realizar uma transferência, Pix ou enviar dinheiro.",
+"indicadores": [
+"faça um Pix",
+"faça um pix",
+"transfira o dinheiro",
+"envie o valor",
+"realize a transferência",
+"faça uma transferência",
+"envie um Pix",
+"envie um pix",
+"transfira o valor"
+],
+"peso": 3
+},
+{
+"id": "S008",
+"nome": "Apelo emocional",
+"descricao": "A abordagem utiliza medo, preocupação, emergência ou pressão emocional para influenciar a decisão.",
+"indicadores": [
+"situação urgente",
+"problema grave",
+"precisamos resolver agora",
+"não conte para ninguém",
+"não conte a ninguém",
+"é uma emergência",
+"não desligue a ligação"
+],
+"peso": 2
+},
+{
+"id": "S009",
+"nome": "Promessa de lucro garantido",
+"descricao": "A situação apresenta promessa de lucro, ganho ou retorno financeiro garantido.",
+"indicadores": [
+"lucro garantido",
+"lucro certo",
+"retorno garantido",
+"rendimento garantido",
+"ganho garantido",
+"dobrar seu dinheiro",
+"sem risco"
+],
+"peso": 3
+},
+{
+"id": "S010",
+"nome": "Rentabilidade muito acima do mercado",
+"descricao": "A situação promete retornos financeiros excepcionalmente elevados ou incompatíveis com uma expectativa normal de investimento.",
+"indicadores": [
+"20% ao mês",
+"rendimento de 20% ao mês",
+"lucro de 20% ao mês",
+"retorno de 20% ao mês",
+"dobre seu dinheiro em poucos dias",
+"retorno muito acima do mercado"
+],
+"peso": 3
+},
+{
+"id": "S011",
+"nome": "Pagamento para garantir vaga",
+"descricao": "A pessoa é solicitada a realizar um pagamento, Pix ou transferência para garantir uma vaga, reserva ou participação.",
+"indicadores": [
+"Pix para garantir uma vaga",
+"pagamento para garantir uma vaga",
+"transferência para garantir uma vaga",
+"pague para garantir sua vaga",
+"faça um Pix para garantir sua vaga",
+"pagamento antecipado para garantir vaga",
+"transferência antecipada para garantir vaga"
+],
+"peso": 2
+},
+{
+"id": "S012",
+"nome": "Cobrança inesperada",
+"descricao": "A pessoa recebe uma cobrança, boleto ou dívida que não esperava ou cuja origem não reconhece.",
+"indicadores": [
+"cobrança inesperada",
+"cobrança que não esperava",
+"boleto que não esperava",
+"não esperava essa cobrança",
+"não reconheço essa cobrança",
+"cobrança desconhecida"
+],
+"peso": 3
+},
+{
+"id": "S013",
+"nome": "Beneficiário desconhecido",
+"descricao": "Os dados do beneficiário da cobrança não correspondem à empresa ou pessoa que deveria receber o pagamento.",
+"indicadores": [
+"beneficiário desconhecido",
+"beneficiário não é o mesmo",
+"beneficiário diferente",
+"nome do beneficiário diferente",
+"beneficiário não corresponde",
+"beneficiário não é o mesmo nome da empresa"
+],
+"peso": 4
+},
+{
+"id": "S014",
+"nome": "Cobrança antecipada",
+"descricao": "A pessoa precisa pagar uma taxa, seguro ou outro valor antecipadamente para receber um empréstimo ou benefício prometido.",
+"indicadores": [
+"taxa antecipada",
+"cobrança antecipada",
+"pagar uma taxa antes",
+"pagar antes de receber",
+"pagar o seguro antes",
+"transferir antes de receber"
+],
+"peso": 4
+},
+{
+"id": "S015",
+"nome": "Falsa central de atendimento",
+"descricao": "Uma pessoa afirma representar um banco, instituição financeira ou setor de segurança e solicita procedimentos ou informações.",
+"indicadores": [
+"sou do setor de segurança do banco",
+"sou do banco",
+"sou funcionário do banco",
+"sou funcionária do banco",
+"setor de segurança",
+"central de segurança",
+"central de atendimento",
+"nosso especialista"
+],
+"peso": 3
+},
+{
+"id": "S016",
+"nome": "Contato inesperado",
+"descricao": "Uma pessoa ou instituição entra em contato de forma inesperada para tratar de conta, cartão, investimento ou operação financeira.",
+"indicadores": [
+"entrou em contato comigo",
+"entrou em contato",
+"me mandou uma mensagem",
+"me ligou",
+"recebi uma ligação",
+"pessoa entrou em contato",
+"contato inesperado"
+],
+"peso": 2
+},
+{
+"id": "S017",
+"nome": "Canal desconhecido",
+"descricao": "A comunicação ou cobrança é realizada por um número, contato ou canal que a pessoa não reconhece.",
+"indicadores": [
+"número que você não conhece",
+"número desconhecido",
+"contato desconhecido",
+"canal desconhecido",
+"não conheço o número"
+],
+"peso": 3
+},
+{
+"id": "S018",
+"nome": "Canal não oficial",
+"descricao": "A abordagem financeira ocorre por um canal que não corresponde aos canais oficiais conhecidos da instituição.",
+"indicadores": [
+"pelas redes sociais",
+"rede social",
+"canal não oficial",
+"conta pessoal",
+"perfil pessoal"
+],
+"peso": 3
+},
+{
+"id": "S019",
+"nome": "Solicitação de dados",
+"descricao": "A pessoa é orientada a fornecer dados pessoais ou informações cadastrais para realizar uma ação financeira.",
+"indicadores": [
+"informe seus dados",
+"confirme seus dados",
+"forneça seus dados",
+"dados pessoais",
+"dados bancários"
+],
+"peso": 3
+},
+{
+"id": "S020",
+"nome": "Solicitação de dados sensíveis",
+"descricao": "A pessoa é solicitada a fornecer informações sensíveis do cartão, conta ou credenciais financeiras.",
+"indicadores": [
+"número completo do cartão",
+"número do cartão",
+"validade do cartão",
+"código de segurança do cartão",
+"código de segurança",
+"dados completos do cartão"
+],
+"peso": 4
+},
+{
+"id": "S021",
+"nome": "Pedido de devolução para outra conta",
+"descricao": "A pessoa é orientada a devolver um suposto pagamento ou Pix por meio de uma nova transferência para outra conta ou chave.",
+"indicadores": [
+"devolver para outra conta",
+"devolva para outra conta",
+"faça um novo Pix",
+"novo Pix para esta outra chave",
+"transfira para outra conta",
+"devolução para outra conta"
+],
+"peso": 4
+},
+{
+"id": "S022",
+"nome": "Pedido de transferência para conta de terceiro",
+"descricao": "A pessoa é orientada a enviar dinheiro diretamente para uma conta pessoal ou de terceiro em vez de utilizar um canal institucional.",
+"indicadores": [
+"minha conta pessoal",
+"minha conta",
+"conta de terceiro",
+"transfira para minha conta",
+"envie o valor para minha conta pessoal"
+],
+"peso": 4
+},
+{
+"id": "S023",
+"nome": "Promessa de aprovação garantida",
+"descricao": "É prometida aprovação garantida de empréstimo ou crédito, sem análise ou sem critérios normais de concessão.",
+"indicadores": [
+"aprovado sem análise de crédito",
+"aprovação garantida",
+"aprovado sem análise",
+"empréstimo garantido",
+"liberação garantida"
+],
+"peso": 3
+},
+{
+"id": "S024",
+"nome": "Falsa assessoria de investimentos",
+"descricao": "Uma pessoa se apresenta como assessor ou profissional de investimentos e solicita diretamente valores ou operações financeiras.",
+"indicadores": [
+"sou seu novo assessor de investimentos",
+"assessor de investimentos",
+"novo assessor",
+"assessoria de investimentos"
+],
+"peso": 3
+},
+{
+"id": "S025",
+"nome": "Abordagem presencial suspeita",
+"descricao": "Uma pessoa se apresenta como funcionária de uma instituição e realiza uma abordagem presencial para executar procedimento financeiro ou de segurança.",
+"indicadores": [
+"se apresentou como funcionária",
+"se apresentou como funcionário",
+"funcionária do banco",
+"funcionário do banco",
+"veio até mim",
+"abordagem presencial"
+],
+"peso": 3
+},
+{
+"id": "S026",
+"nome": "Alegação de bloqueio do cartão",
+"descricao": "A pessoa é informada de que seu cartão está bloqueado ou será bloqueado e recebe uma orientação para supostamente desbloqueá-lo.",
+"indicadores": [
+"cartão estava bloqueado",
+"cartão está bloqueado",
+"cartão foi bloqueado",
+"cartão bloqueado",
+"desbloqueio do cartão"
+],
+"peso": 2
+},
+{
+"id": "S027",
+"nome": "Alegação de falha de segurança",
+"descricao": "A abordagem afirma existir uma falha ou problema de segurança no cartão, conta ou sistema para justificar uma ação.",
+"indicadores": [
+"falha de segurança",
+"problema de segurança",
+"falha no cartão",
+"problema de segurança no cartão",
+"atividade incomum"
+],
+"peso": 2
+},
+{
+"id": "S028",
+"nome": "Procedimento suspeito no aplicativo",
+"descricao": "A pessoa recebe instruções para executar procedimentos incomuns no aplicativo bancário para supostamente resolver um problema.",
+"indicadores": [
+"siga algumas instruções no aplicativo",
+"instruções no aplicativo",
+"procedimento no aplicativo",
+"faça este procedimento no aplicativo",
+"acesse o aplicativo para desbloquear"
+],
+"peso": 2
+},
+{
+"id": "S029",
+"nome": "Pedido para autorizar uma operação",
+"descricao": "A pessoa é orientada a autorizar uma operação financeira como parte de um suposto procedimento de segurança ou regularização.",
+"indicadores": [
+"autorize uma operação",
+"autorizar uma operação",
+"autorize a operação",
+"confirme a operação",
+"aprovar uma operação"
+],
+"peso": 3
+},
+{
+"id": "S030",
+"nome": "Solicitação para utilizar leitor desconhecido",
+"descricao": "A pessoa é orientada a inserir ou utilizar o cartão em um leitor ou dispositivo desconhecido.",
+"indicadores": [
+"colocar o cartão em um leitor",
+"coloque o cartão em um leitor",
+"leitor desconhecido",
+"utilizar um leitor",
+"use o leitor"
+],
+"peso": 4
+},
+{
+"id": "S031",
+"nome": "Suposto procedimento de desbloqueio",
+"descricao": "A pessoa é orientada a realizar um procedimento específico para supostamente desbloquear ou regularizar um cartão.",
+"indicadores": [
+"procedimento de desbloqueio",
+"desbloquear o cartão",
+"liberar novamente o cartão",
+"regularizar o cartão",
+"desbloqueio"
+],
+"peso": 2
+},
+{
+"id": "S032",
+"nome": "Suposta regularização do cartão",
+"descricao": "A pessoa recebe instruções para realizar uma ação no cartão ou aplicativo sob a justificativa de regularizar ou proteger o cartão.",
+"indicadores": [
+"regularização do cartão",
+"regularizar o cartão",
+"proteger sua conta",
+"proteger o cartão",
+"liberar novamente o cartão"
+],
+"peso": 2
+}
 ]
